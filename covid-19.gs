@@ -51,7 +51,7 @@ function COVID() {
 }
 
 function getLastData() {
-   var token = "7fPX6dBcSVVSsPBShYHiMUgJvcsTeiyfoMuWCDdYvpp";
+   var token = "Insert Line Notify Token";
    var SpreadSheet = SpreadsheetApp.getActive();
    var sheet = SpreadSheet.getActiveSheet();
    if(sheet) {
