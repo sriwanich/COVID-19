@@ -2,7 +2,7 @@ function COVID() {
   
   var total =[];
   // Call the Numbers API for random math fact
-  var fetchAPI = UrlFetchApp.fetch("https://data-covid-2019.herokuapp.com/api/covids/thailand_summary");
+  var fetchAPI = UrlFetchApp.fetch("API Link");
   Logger.log(fetchAPI.getContentText());
   var json = JSON.parse(fetchAPI.getContentText());
   total[1] = json.data.confirmed;
